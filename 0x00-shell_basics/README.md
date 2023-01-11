@@ -1,0 +1,1 @@
+This contains the current working directory;list current directory, change the user's home directory, displays the long format directory, display the hidden files, displays current directory content, etc.
