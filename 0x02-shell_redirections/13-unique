@@ -1,2 +1,2 @@
 #!/bin/bash
-sort input_file.txt | uniq -c | grep '^ *1 ' | cut -c6- | sort
+sort input.txt | uniq -c | grep '^ *1 ' | cut -c6- | sort
