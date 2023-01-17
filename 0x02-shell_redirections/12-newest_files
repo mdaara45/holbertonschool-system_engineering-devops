@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lt --sort=time --time-style=+%s | head +n 10
+ls -t | head
