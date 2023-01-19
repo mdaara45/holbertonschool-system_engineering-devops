@@ -1,2 +1,2 @@
 #!/bin/bash
-func () { local BEST=School echo }
+func () { local BEST=School echo echo "\"BEST\" in function = $BEST" }
