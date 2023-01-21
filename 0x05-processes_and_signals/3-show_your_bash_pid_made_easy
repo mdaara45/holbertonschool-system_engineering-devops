@@ -2,6 +2,6 @@
 #displays the PID, along with the process name, of processes whose name contain the word bash.
 pids=$(pgrep -f "bash")
 for pid in $pids; do
-  name=$(cat /proc/$pid/comm)
-  echo "PID: $pid, Process Name: $name"
+  name=$(cat /proc/"$pid"/comm)
+  echo "$pid $name"
 done
