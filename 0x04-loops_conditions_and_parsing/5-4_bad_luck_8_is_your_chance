@@ -3,11 +3,12 @@
 x=1
 while [ $x -le 10 ]
 do
-  echo "Best School"
   x=$((x + 1))
-  if x=$(( x > 4)) 
-   echo "bad luck"
-   else if x=$(( x > 8))
-    echo "good luck"
-   fi 
+  if x=$(( x > 3));
+       then echo "bad luck"
+  elif x=$(( x > 7)); 
+     then echo "good luck"
+     else
+   echo "Best School"
+  fi 
 done
