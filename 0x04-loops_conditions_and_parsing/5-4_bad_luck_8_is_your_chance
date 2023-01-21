@@ -3,12 +3,11 @@
 x=1
 while [ $x -le 10 ]
 do
-	echo "Best School"
+  echo "Best School"
   x=$((x + 1))
-  if [ $x -eq 4 ];
-       then echo "bad luck"
-  elif [ $x -eq 8 ] 
-     then echo "good luck"
-   
+  if [ $x -eq 4 ]; then
+     echo "bad luck"
+  elif [ $x -eq 8 ]; then 
+     echo "good luck"
   fi 
 done
