@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 # This script displays Best School 10 times, but for the 9th iteration, disp
 x=1
-while [ $x -le 9 ]
+while [ $x -le 10 ]
 do
   echo "Best School"
   x=$((x + 1))
-  if [ $x -eq 9 ];
+  if [ $x -eq 10 ];
    then echo "Hi"
   fi
 done
