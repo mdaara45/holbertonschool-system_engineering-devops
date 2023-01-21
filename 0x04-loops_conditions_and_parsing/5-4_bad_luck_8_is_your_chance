@@ -7,7 +7,7 @@ do
   x=$((x + 1))
   if [ $x -eq 4 ]; then
      echo "bad luck"
-  elif [ $x -eq 8 ]; then 
+  elif [ $x -eq 7 ]; then 
      echo "good luck"
   fi 
 done
