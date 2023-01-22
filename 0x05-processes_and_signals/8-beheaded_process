@@ -7,7 +7,7 @@ if [ -z "$process_id" ]; then
 fi
 kill "$process_id"
 if ! pgrep -f "7-highlander" > /dev/null; then
-    echo "Process 7-highlander terminated successfully."
+    echo "Killed"
     exit 0
 else
     echo "Failed to terminate process 7-highlander."
