@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# Bash script that kills the process 7-highlander.
+process_id=$(pgrep -f "7-highlander")
+if [ -z "$process_id" ]; then
+    echo "Process 7-highlander not running."
+    exit 1
+fi
+kill "$process_id"
+if ! pgrep -f "7-highlander" > /dev/null; then
+    echo "Process 7-highlander terminated successfully."
+    exit 0
+else
+    echo "Failed to terminate process 7-highlander."
+    exit 1
+fi
