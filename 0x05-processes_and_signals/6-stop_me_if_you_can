@@ -7,7 +7,7 @@ if [ -z "$process_id" ]; then
 fi
 pkill -f "4-to_infinity_and_beyond"
 if ! pgrep -f "4-to_infinity_and_beyond" > /dev/null; then
-    echo "Process terminated successfully."
+    echo "Terminated"
     exit 0
 else
     echo "Failed to terminate process."
