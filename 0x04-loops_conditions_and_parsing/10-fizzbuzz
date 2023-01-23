@@ -12,4 +12,3 @@ do
         echo "$i"
     fi
 done
-echo
